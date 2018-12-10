@@ -1,6 +1,6 @@
 int eyer = 4 ;
 void setup() {
-  size(640, 360);
+  size(900, 900);
 }
 
 

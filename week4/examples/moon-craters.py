@@ -19,6 +19,7 @@ def get_coords(url):
 
     tree = etree.fromstring(res.text, parser)
     coords = tree.xpath('//span[@class="geo"]/text()')
+    # //tbody[1]/tr/td[3]/text()
 
     return coords
 
